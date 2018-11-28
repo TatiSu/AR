@@ -11,3 +11,12 @@ For full detailed articles about AR.js and markers please take a look at
 * [Supported 3D model types](https://medium.com/@akashkuttappa/using-3d-models-with-ar-js-and-a-frame-84d462efe498)
 * [Ready-to-use patterns](https://github.com/artoolkit/artoolkit5/tree/master/doc/patterns)
 
+## lokale entwicklung
+
+1. node+npm installieren: https://nodejs.org/en/download
+2. kommandozeile öffnen (windows: windows taste -> "cmd" -> [Enter]; Mac: Terminal)
+3. `npm install -g http-server localtunnel`
+4. in Ordner mit Datei gehen 
+5. `http-server`
+6. `lt --port 8080`
+Ausprobieren am PC: Browser -> "localhost:8080"; Ausprobieren auf Externem Gerät -> Ausgegebene URL mit https 
